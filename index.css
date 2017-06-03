@@ -1,0 +1,48 @@
+html {
+  background-color: #2B3E50;
+}
+
+.font {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#bio, #resume {
+  border: 5px solid #E24C0E;
+  border-radius: 10px;
+  top: 350px;
+  position: absolute;
+  background: #E24C0E;
+}
+
+
+img {
+  height: 250px;
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  top: 70px;
+  transform: translate(-50%);
+  border: 5px solid #E24C0E;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#bio {
+  left: 25%;
+}
+
+#resume {
+  right: 25%;
+}
+
+a {
+  text-decoration: none;
+}
